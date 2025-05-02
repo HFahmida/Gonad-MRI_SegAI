@@ -11,7 +11,7 @@ This repository describes an AI model to run on MR images to segment ovary and o
 ### Insturctions: 
 1. First, create a conda environment. You can name it to your liking; for example, ***'ct-env'***.
 2. Install nnUNet. Installation process can be found in the following link: [documentation/installation_instructions.md](https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/installation_instructions.md)
-3. Download the model weights from the following link: 
+3. Download the model weights from the following link: [MRI-Ovary-Cyst-AI](https://zenodo.org/records/15329885?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjU5YzI0MjJkLWNkMDktNDE1ZS05Mjc0LTc3YjM2Y2EyMWM4OCIsImRhdGEiOnt9LCJyYW5kb20iOiIyM2M4MTU0NjRlZjg2NTkxZDQxOTQyNjIwMmZjZTM0NCJ9.ivvEtitWku8DaeJXeBRrlW4Vtmq1EINRcCcXXhKXBKDImgRiEDnQFCAro344ANAZB1zH09yW9neM44oF9-MhAg)
 4. The model weights should be inside the,***'nnUNet_results'*** folder. This is important for nnUNet to identify which dataset to process. Please make another folder ***'nnUNet_raw'***, ***'nnUNet_preprocessed'*** in the same file path where the unziped ***'nnUNet_results'*** folder is kept. 
 5. nnU-Net expects datasets in a structured format. This format is inspired by the data structure of the Medical Segmentation Decthlon. Please read the following link for dataset conversion: [how-to-use-nnUNet](https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/how_to_use_nnunet.md)
 6. Image file should be in nifti format. USe the following package: [TCIA_processing](https://github.com/lab-midas/TCIA_processing) and use the following command to conver the images from DICOM to NIFTI:

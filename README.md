@@ -1,6 +1,7 @@
 # MRI-Ovary-Cyst-AI
 This repository describes an AI model to run on MR images to segment ovary and ovarian cysts. 
-#[Under Constructions]
+
+#Under Constructions
 
 ## This repository is created to release the model weights for the following abstract: "AI-based Approach for Ovary and Ovarian Cyst Segmentation at  MRI in Pre-pubertal and Pubertal Females".
 ## Please cite if you are using the model: 

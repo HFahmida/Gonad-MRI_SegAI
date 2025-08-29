@@ -14,7 +14,6 @@ Then create a conda env and install the dependencies:
 ```
 conda create -n mri_gonad python=3.10 -y
 conda activate mri_gonad
-pip install -e .
 ```
 Install nnUNet. Installation process can be found in the following link: [documentation/installation_instructions.md](https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/installation_instructions.md)
 

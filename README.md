@@ -32,7 +32,7 @@ For single modality (FS-T2W AI or T2W AI model), both MRIs should be renamed as 
 
 ## Inference
 #### Model weights
-Download the Pretrained model checkpoints and Images from the following link: [MRI-Gonad_SegAI](https://zenodo.org/records/15329885?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjU5YzI0MjJkLWNkMDktNDE1ZS05Mjc0LTc3YjM2Y2EyMWM4OCIsImRhdGEiOnt9LCJyYW5kb20iOiIyM2M4MTU0NjRlZjg2NTkxZDQxOTQyNjIwMmZjZTM0NCJ9.ivvEtitWku8DaeJXeBRrlW4Vtmq1EINRcCcXXhKXBKDImgRiEDnQFCAro344ANAZB1zH09yW9neM44oF9-MhAg)
+Download the Pretrained model checkpoints and Images from the following link: [Gonad-MRI_SegAI](https://zenodo.org/records/15329885?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjU5YzI0MjJkLWNkMDktNDE1ZS05Mjc0LTc3YjM2Y2EyMWM4OCIsImRhdGEiOnt9LCJyYW5kb20iOiIyM2M4MTU0NjRlZjg2NTkxZDQxOTQyNjIwMmZjZTM0NCJ9.ivvEtitWku8DaeJXeBRrlW4Vtmq1EINRcCcXXhKXBKDImgRiEDnQFCAro344ANAZB1zH09yW9neM44oF9-MhAg)
 We have provided scripts for running inference. 
 
 #### For Ovary and Cyst Segmentation model: 

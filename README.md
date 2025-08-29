@@ -37,11 +37,13 @@ Download the Pretrained model checkpoints and Images from the following link: [G
 Unzip the file and put them inside **Gonad-MRI_SegAI/** folder. We have provided scripts for running inference. 
 
 ### For Ovary and Cyst Segmentation model: 
-Dataset101_MRI-Ovary-Cyst: FS-T2W and T2W MRI [T2W image is resampled to FS T2W image size and spacing] used to train the model
 
-Dataset102_MRI-Ovary-Cyst: FS-T2W MRI used to train the model
+**Dataset101_MRI-Ovary-Cyst:** FS-T2W and T2W MRI [T2W image is resampled to FS T2W image size and spacing] used to train the model
 
-Dataset103_MRI-Ovary-Cyst: T2W MRI used to train the model
+**Dataset102_MRI-Ovary-Cyst:** FS-T2W MRI used to train the model
+
+**Dataset103_MRI-Ovary-Cyst:** T2W MRI used to train the model
+
 ```
 sbatch inference_Ovary-Cyst_AI_model.sh 
 
@@ -56,9 +58,10 @@ python Ovary-cyst_volume_extraction.py
 ```
 
 ### For testicle Segmentation model: 
-Dataset101_MRI-testie: Testicular Whole model trained using T2W MRI
 
-Dataset101_MRI-testie: Testicular side-separated model trained using T2W MRI
+**Dataset101_MRI-testie:** Testicular Whole model trained using T2W MRI
+
+**Dataset101_MRI-testie:** Testicular side-separated model trained using T2W MRI
 
 ```
 sbatch inference_Testicular_AI_model.sh 

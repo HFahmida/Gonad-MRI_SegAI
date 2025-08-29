@@ -1,7 +1,7 @@
 # Gonad-MRI_SegAI
 ## Overview 
 This repository describes an AI model to run on MR images to segment GONADS and ovarian cysts. 
-## Introducing HistoTMEv2 :rocket:
+## Introducing Gonad-MRI_SegAI :rocket:
 This repository is created to release the model weights for the following abstract: "AI-based Approach for Automated Gonad Volume Quantification Using MRI in Healthy Adolescents across Puberty".
 Please cite if you are using the model: ***coming soon***
 ## Installation and prerequisites

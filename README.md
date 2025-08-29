@@ -32,7 +32,7 @@ For single modality (FS-T2W AI or T2W AI model), both MRIs should be renamed as 
 
 ## Inference
 ### Model weights
-Download the Pretrained model checkpoints and Images from the following link: [Gonad-MRI_SegAI]([https://zenodo.org/records/16414788])
+Download the Pretrained model checkpoints and Images from the following link: [Gonad-MRI_SegAI](https://zenodo.org/records/16414788)
 
 Unzip the file and put them inside **Gonad-MRI_SegAI/** folder. We have provided scripts for running inference. 
 

@@ -33,7 +33,8 @@ For single modality (FS-T2W AI or T2W AI model), both MRIs should be renamed as 
 ## Inference
 #### Model weights
 Download the Pretrained model checkpoints and Images from the following link: [Gonad-MRI_SegAI](https://zenodo.org/records/15329885?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjU5YzI0MjJkLWNkMDktNDE1ZS05Mjc0LTc3YjM2Y2EyMWM4OCIsImRhdGEiOnt9LCJyYW5kb20iOiIyM2M4MTU0NjRlZjg2NTkxZDQxOTQyNjIwMmZjZTM0NCJ9.ivvEtitWku8DaeJXeBRrlW4Vtmq1EINRcCcXXhKXBKDImgRiEDnQFCAro344ANAZB1zH09yW9neM44oF9-MhAg)
-We have provided scripts for running inference. 
+
+Unzip the file and put them inside **Gonad-MRI_SegAI/** folder. We have provided scripts for running inference. 
 
 #### For Ovary and Cyst Segmentation model: 
 Dataset101_MRI-Ovary-Cyst: FS-T2W and T2W MRI [T2W image is resampled to FS T2W image size and spacing] used to train the model
@@ -46,6 +47,14 @@ sbatch inference_Ovary-Cyst_AI_model.sh
 
 ```
 
+Once the model inference was completed, use the following two scripts to extract statistics and volumes in comparison to ground truth. Fix the folder paths according to yours. 
+
+```
+python Ovary-Cyst_AI_statistics.py
+
+python Ovary-cyst_volume_extraction.py
+```
+
 #### For testicle Segmentation model: 
 Dataset101_MRI-testie: Testicular Whole model trained using T2W MRI
 
@@ -56,4 +65,11 @@ sbatch inference_Testicular_AI_model.sh
 
 ```
 
+Once the model inference was completed, use the following two scripts to extract statistics and volumes in comparison to ground truth. Fix the folder paths according to yours. 
+
+```
+python Testicular_AI_statistics.py
+
+python Testicular_AI_volume_extraction.py
+```
 

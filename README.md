@@ -25,7 +25,9 @@ Image file should be in nifti format. Use the **dicom_to_nifti_conversion.py** f
 python dicom_to_nifti_conversion.py [--dicom_path dicom_folder] [--nifti_path nifti-outpath]
 ```
 nnU-Net expects datasets in a structured format. This format is inspired by the data structure of the Medical Segmentation Decthlon. Please read the following link for dataset conversion: [how-to-use-nnUNet](https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/how_to_use_nnunet.md)
+
 For duel modality (FS-T2W and T2W AI model), FS T2W MRIs should be renamed as channel 1 input with ***'_0000.nii.gz'*** extension and T2W MRIs ***'_0001.nii.gz'***. Example FS-T2W image: ***id-023_2014-09_0000.nii.gz***, T2W Image: ***id-023_2014-09_0001.nii.gz***
+
 For single modality (FS-T2W AI or T2W AI model), both MRIs should be renamed as channel 1 input individually with ***'_0000.nii.gz'*** extension. Example FS-T2W image: ***id-023_2014-09_0000.nii.gz*** for FS T2W only AI, T2W Image: ***id-023_2014-09_0000.nii.gz*** for T2W only AI
 
 ## Inference
